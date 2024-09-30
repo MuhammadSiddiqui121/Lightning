@@ -13,6 +13,7 @@ ellipse(240, 50, 120,60);
 ellipse(270, 50, 70, 50);
 ellipse(230, 80, 80, 90);
 ellipse(280, 90, 80, 90);
+}
 
 void draw()
 
