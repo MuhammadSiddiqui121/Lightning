@@ -24,6 +24,8 @@ endY= startY + (int) (Math. random ()*1);
 line (start, startY, endX, endY);
 startX = endX;
 startY = endY;
+}
+}
 
 void mousePressed()
 {
