@@ -17,7 +17,7 @@ void draw()
 stroke(255,255, 255);
 if(endY < 500){
 endX = startX + (int) (Math. random()*18);
-endY = startY + (int) (Math. random ()*10) - 9;
+endY = startY + (int) (Math. random ()*10);
 line(startX, startY, endX, endY);
 startX = endX;
 startY = endY;
