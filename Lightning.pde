@@ -21,8 +21,8 @@ void draw()
 stroke (255,255, 255);
 while(endY < 500){
 endX = start + (int) (Math. random()*5);
-endY= startY + (int) (Math. random ()*9);
-line (start, startY, endX, endY);
+endY = startY + (int) (Math. random ()*9);
+line(start, startY, endX, endY);
 startX = endX;
 startY = endY;
 }
