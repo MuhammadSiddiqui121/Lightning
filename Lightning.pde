@@ -18,9 +18,9 @@ ellipse(280, 90, 80, 90);
 void draw()
 
 {
-stroke (255,255, 255);
+stroke(255,255, 255);
 while(endY < 500){
-endX = start + (int) (Math. random()*5);
+endX = startX + (int) (Math. random()*5);
 endY = startY + (int) (Math. random ()*10);
 line(startX, startY, endX, endY);
 startX = endX;
