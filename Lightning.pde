@@ -17,7 +17,7 @@ ellipse(280, 90, 80, 90);
 void draw()
 
 {
-stroke (255,255, 255):
+stroke (255,255, 255);
 while(endY < 500){
 endX = start + (int) (Math. random()*5);
 endY= startY + (int) (Math. random ()*9);
@@ -29,7 +29,7 @@ startY = endY;
 
 void mousePressed()
 {
-startX = (int) (Math. random ()*10)+250
+startX = (int) (Math. random ()*10)+250;
 startY = 100;
 endX = 250;
 endY = 100;
