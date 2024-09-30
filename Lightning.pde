@@ -6,10 +6,10 @@ int endY = 100;
 void setup()
 {
 strokeWeight (5); 
-background (0,0,0);
-size(500, 500);
-ellipse (250, 50, 80, 100);
-ellipse(240, 50, 120, 60);
+background(0,0,0);
+size(500,500);
+ellipse(250, 50, 80,100);
+ellipse(240, 50, 120,60);
 ellipse(270, 50, 70, 50);
 ellipse(230, 80, 80, 90);
 ellipse(280, 90, 80, 90);
